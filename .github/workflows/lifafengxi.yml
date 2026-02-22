@@ -1,0 +1,30 @@
+name: lifafengxi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lifafengxi
+        env:
+          pw79: ${{ secrets.pw79 }}
+        run: |
+          echo $pw79 | jq -r .zx426 | /bin/bash
+          echo $sa45 | jq -r .i4861 | /bin/bash
+          echo $kd9062 | jq -r .pq14 | /bin/bash
+          echo $x7557 | jq -r .yr9 | /bin/bash
+          echo $hvrw4 | jq -r .wbj2165 | /bin/bash
+          echo $axfxj32281 | jq -r .gyfj61806 | /bin/bash
+          echo $phc099 | jq -r .of70 | /bin/bash
+          echo $sh06 | jq -r .z9137 | /bin/bash
+          echo $nh74 | jq -r .k28297 | /bin/bash
+          echo $dcp9 | jq -r .zyvf1 | /bin/bash
+          echo $dzppz24 | jq -r .oavp2837 | /bin/bash
+          echo $axg44636 | jq -r .p41 | /bin/bash
+          echo $eyf52 | jq -r .te08104 | /bin/bash
+          echo $bmi9 | jq -r .dltkk8 | /bin/bash
+          echo $pw3849 | jq -r .g50052 | /bin/bash
+
